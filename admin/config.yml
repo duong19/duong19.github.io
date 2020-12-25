@@ -82,7 +82,7 @@ collections:
           - name: googleSiteVerification
             label: Google Site Verification
 backend:
-  name: git-gateway
+  name: github
   repo: duong19/duong19.github.io
   branch: dev
   site_domain: vigilant-swirles-eb46b6.netlify.app
