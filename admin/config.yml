@@ -1,0 +1,90 @@
+site_url: https://dwweirdo.github.io
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: blog
+    label: Blog
+    folder: data/posts
+    create: true
+    format: yaml-frontmatter
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    preview_path: blog/{{slug}}
+    fields:
+      - name: date
+        label: Date
+        widget: datetime
+
+      - name: series
+        label: Series
+        widget: relation
+        collection: site_configuration
+        file: series
+        valueField: series.*.name
+        searchFields:
+          - series.*.name
+        required: false
+
+      - name: title
+        label: Title
+
+      - name: description
+        label: Description
+        widget: text
+        required: false
+
+      - name: keyword
+        label: Keywords
+        widget: list
+        required: false
+
+      - name: body
+        label: Body
+        widget: markdown
+  - name: site_configuration
+    label: Site configuration
+    files:
+      - label: Series
+        name: series
+        file: "data/series.json"
+        fields:
+          - name: series
+            label: Series
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Description
+                name: description
+                widget: string
+      - label: Config
+        name: config
+        file: "data/config.json"
+        fields:
+          - name: title
+            label: Blog title
+            widget: string
+
+          - name: description
+            label: Blog description
+            widget: string
+
+          - name: author
+            label: Blog author
+            widget: string
+
+          - name: siteUrl
+            label: Site URL
+            widget: string
+
+          - name: googleSiteVerification
+            label: Google Site Verification
+backend:
+  name: github
+  repo: dwweirdo/dwweirdo.github.io
+  branch: dev
+  site_domain: wonderful-dubinsky-ed2426.netlify.com
+publish_mode: editorial_workflow
+show_preview_links: false
