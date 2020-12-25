@@ -85,6 +85,6 @@ backend:
   name: git-gateway
   repo: duong19/duong19.github.io
   branch: dev
-  site_domain: sleepy-euclid-70cddf.netlify.app
+  site_domain: vigilant-swirles-eb46b6.netlify.app
 publish_mode: editorial_workflow
 show_preview_links: false
