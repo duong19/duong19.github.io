@@ -9,8 +9,8 @@
       "description": "Some movies that I like"
     },
     {
-      "name": "Deep Unsupervised Learning",
-      "description": "Basic and advanced stuff from CS294 class"
+      "name": "Reinforcement Learning",
+      "description": "Basic and advanced stuff about RL"
     }
   ]
 }
