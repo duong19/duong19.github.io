@@ -1,4 +1,4 @@
-site_url: https://dwweirdo.github.io
+site_url: https://duong19.github.io
 media_folder: static/assets
 public_folder: /assets
 collections:
@@ -83,8 +83,8 @@ collections:
             label: Google Site Verification
 backend:
   name: github
-  repo: dwweirdo/dwweirdo.github.io
+  repo: duong19/duong19.github.io
   branch: dev
-  site_domain: wonderful-dubinsky-ed2426.netlify.com
+  site_domain: vigilant-swirles-eb46b6.netlify.app
 publish_mode: editorial_workflow
 show_preview_links: false
