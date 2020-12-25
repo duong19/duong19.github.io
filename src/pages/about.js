@@ -15,7 +15,7 @@ export default function About() {
       <div className={style.about}>
         <Avatar size={256} src={avatar} className={style.avatar + ' ' + style.block}/>
         <div className={style.bio + " " + style.block}>
-                    <h2>Nguyễn Lý Thái Dương</h2>
+                    <h2>Nguyen Ly Thai Duong</h2>
                     <ul>
                         <li>
                             <h4>🗓: 30/11/1999</h4>
@@ -33,7 +33,17 @@ export default function About() {
                 </div>
           <hr/>
           <div>
+            <h1>About me</h1>
+            <br></br>
+            <p>I am currently a student at Hanoi University of Science and Technology. I am interested in Machine Learning, especially Reinforcement Learning and Deep Generative Models</p>
+          </div>
+          <br/>
+          <br/>
+
+          <hr/>
+          <div>
             <h1>About this blog</h1>
+            <br></br>
             <p>A place to keep track of my knowledge and practice my English writing skill.</p>
           </div>
       </div>

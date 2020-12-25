@@ -30,7 +30,7 @@ body.dark {
     --secondary: hsl(207, 82%, 66%);
     --bg: #292a2d;
     --bgHighlight: hsl(220, 11%, 33%);
-    --textTitle: #a9a9b3;
+    --textTitle: #f5f5f5;
     --textNormal: hsl(220, 14%, 71%);
     --textBold: hsl(220, 1%, 100%);
     --header: hsl(220, 1%, 100%);
