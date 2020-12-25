@@ -1,7 +1,37 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/node-apis/
- */
+const { createFilePath } = require('gatsby-source-filesystem')
 
-// You can delete this file if you're not using it
+const { buildPosts } = require("./node/posts");
+const { getSeriesList, buildSeriesPage } = require("./node/series");
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+    const { createNodeField } = actions;
+    if (node.internal.type === `MarkdownRemark`) {
+      let slug = createFilePath({ node, getNode, basePath: `posts` });
+      createNodeField({
+        node,
+        name: `slug`,
+        value: slug,
+      });
+    }
+  };
+  
+exports.createPages = async ({ actions, graphql }) => {
+    const { createPage } = actions;
+    const seriesList = getSeriesList();
+    await buildPosts({ createPage, graphql, seriesList });
+    await buildSeriesPage({ createPage, seriesList });
+  };
+ exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions;
+    createTypes(`
+    type MarkdownRemarkFrontmatter {
+      date: Date
+      series: String
+      title: String
+      description: String
+      keyword: [String]
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }`);
+  };
