@@ -1,4 +1,4 @@
-site_url: https://duong19.github.io
+site_url: https://duongnlt.github.io
 media_folder: static/assets
 public_folder: /assets
 collections:
@@ -83,7 +83,7 @@ collections:
             label: Google Site Verification
 backend:
   name: github
-  repo: duong19/duong19.github.io
+  repo: duongnlt/duongnlt.github.io
   branch: dev
   site_domain: vigilant-swirles-eb46b6.netlify.app
 publish_mode: editorial_workflow
