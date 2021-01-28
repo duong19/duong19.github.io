@@ -33,7 +33,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-    siteTitle: `A weirdo's mind`,
+    siteTitle: `A weirdo's corner`,
     siteDescription: ``,
 };
 export default Header;
