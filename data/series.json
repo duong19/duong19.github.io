@@ -11,6 +11,10 @@
     {
       "name": "Reinforcement Learning",
       "description": "Basic and advanced stuff about RL"
+    },
+    {
+      "name": "Machine Learning",
+      "description": "My basic knowledge of Machine Learning"
     }
   ]
 }
