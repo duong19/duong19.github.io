@@ -1,0 +1,39 @@
+---
+date: 2021-02-03T06:55:13.201Z
+series: Machine Learning
+title: 1. Linear Regression
+description: "In the first blog post of this series, we will discuss some basic
+  concepts of Machine Learning and go into the first Machine Learning algorithm:
+  Linear Regression."
+keyword:
+  - machine-learning
+  - linear-regression
+  - supervised-learning
+---
+## Introduction to Machine Learning algorithms
+
+Machine Learning algorithms are classified based on:
+
+* **Learning style**:
+  * Semi-supervised learning
+  * Reinforcement learning
+  * Supervised Learning
+  * Unsupervised Learning
+* **Function**:
+  * Regression Algorithms
+  * Classification Algorithms
+  * Instance-based Algorithms 
+  * Regularization Algorithms
+  * Bayesian Algorithms
+  * Clustering Algorithms
+  * Artificial Neural Network Algorithms
+  * Dimensionality Reduction Algorithms
+  * Ensemble Algorithms
+
+## Linear Regression
+
+### 1. Introduction
+
+### 2. Algorithm Analysis
+
+### 3. Example
