@@ -30,12 +30,6 @@ Machine Learning algorithms are classified based on:
   * Dimensionality Reduction Algorithms
   * Ensemble Algorithms
 
-
-
-
-
-
-
 ## Linear Regression
 
 ### 1. Introduction
