@@ -19,8 +19,6 @@ const PageEntry = ({ post }) => {
                     {" • "}
                     {post["fields"]["readingTime"]["text"]}
                 </i>
-                <br />
-                <br />
                 {/* <TagList keyword={keyword} /> */}
                 <br />
                 <br />
