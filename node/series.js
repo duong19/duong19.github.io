@@ -26,7 +26,7 @@ exports.buildSeriesPage = ({ seriesList, createPage }) => {
         createPage({
             path: `/series/${series.slug}/`,
             component: seriesPageTemplate,
-            context: { postList: series.posts, name: name },
+            context: { postList: series.posts, name: name, description: series.description },
         });
     });
 

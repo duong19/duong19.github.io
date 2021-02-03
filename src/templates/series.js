@@ -40,6 +40,8 @@ export default function Template({ pageContext }) {
                 <SEO title={pageContext.name}/>
                 <div className={style.series}>
                 <h1>{pageContext.name}</h1>
+                <br></br>
+                <p><i>{pageContext.description}</i></p>
                 <hr />
                 {pageContext.postList.map((post, id) => (
                     <PageEntry post={post} key={id} />
