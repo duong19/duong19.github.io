@@ -10,12 +10,16 @@ keyword:
   - linear-regression
   - supervised-learning
 ---
-## What is Machine Learning
+## Introduction to Machine Learning algorithms
+
+There are two types of Machine Learning algorithms:
+
+
 
 ## Linear Regression
 
 ### 1. Introduction
 
-### 2. Mathematical Analysis 
+### 2. Algorithm Analysis
 
 ### 3. Example
