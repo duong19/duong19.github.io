@@ -61,7 +61,7 @@ const Post = (props) => {
         <br />
                 <br />
         <hr style={{width: '110%'}}/>
-        <Navigation  newer={props.pageContext.next} older={props.pageContext.previous}/>
+        <Navigation  newer={props.pageContext.previous} older={props.pageContext.next}/>
         </Layout>
     )
 }
