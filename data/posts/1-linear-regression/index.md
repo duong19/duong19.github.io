@@ -5,5 +5,17 @@ title: 1. Linear Regression
 description: "In the first blog post of this series, we will discuss some basic
   concepts of Machine Learning and go into the first Machine Learning algorithm:
   Linear Regression."
+keyword:
+  - machine-learning
+  - linear-regression
+  - supervised-learning
 ---
-Nothing
+## What is Machine Learning
+
+## Linear Regression
+
+### 1. Introduction
+
+### 2. Mathematical Analysis 
+
+### 3. Example
