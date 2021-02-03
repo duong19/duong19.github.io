@@ -12,7 +12,27 @@ keyword:
 ---
 ## Introduction to Machine Learning algorithms
 
-There are two types of Machine Learning algorithms:
+Machine Learning algorithms are classified based on:
+
+* **Learning style**:
+  * Semi-supervised learning
+  * Reinforcement learning
+  * Supervised Learning
+  * Unsupervised Learning
+* **Function**:
+  * Regression Algorithms
+  * Classification Algorithms
+  * Instance-based Algorithms 
+  * Regularization Algorithms
+  * Bayesian Algorithms
+  * Clustering Algorithms
+  * Artificial Neural Network Algorithms
+  * Dimensionality Reduction Algorithms
+  * Ensemble Algorithms
+
+
+
+
 
 
 
