@@ -6,4 +6,4 @@ description: Một vài suy nghĩ về Lost In Translation.
 keyword:
   - movie
 ---
-![image lost in translation](https://miro.medium.com/max/700/1*vR8sTlhlbwLnAYL18G2VaA.jpeg "Bob (Bill Murray) and Charlotte (Scarlett Johansson")
+![image lost in translation](https://miro.medium.com/max/700/1*vR8sTlhlbwLnAYL18G2VaA.jpeg "Bob (Bill Murray) and Charlotte (Scarlett Johansson)")
