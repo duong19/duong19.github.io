@@ -15,14 +15,16 @@ keyword:
 Machine Learning algorithms are classified based on:
 
 * **Learning style**:
+
   * Semi-supervised learning
   * Reinforcement learning
   * Supervised Learning
   * Unsupervised Learning
 * **Function**:
+
   * Regression Algorithms
   * Classification Algorithms
-  * Instance-based Algorithms 
+  * Instance-based Algorithms
   * Regularization Algorithms
   * Bayesian Algorithms
   * Clustering Algorithms
@@ -33,6 +35,14 @@ Machine Learning algorithms are classified based on:
 ## Linear Regression
 
 ### 1. Introduction
+
+$$ 
+
+a^2 + b^2 = c^2 
+
+$$
+
+
 
 ### 2. Algorithm Analysis
 
