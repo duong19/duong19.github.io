@@ -37,10 +37,15 @@ Machine Learning algorithms are classified based on:
 ### 1. Introduction
 
 $$
-\hat{Y} = \hat{\beta_0} + \sum_{n=1}^{p}{X_j\hat{\beta_j}}
+\hat{Y} = \hat{\beta*0} + \sum_{n=1}^{p}{X_j\hat{\beta_j}}
 $$
-
 
 ### 2. Algorithm Analysis
 
 ### 3. Example
+
+## References
+
+1. [The Elements of Statistical Learning (2nd Edition)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+2. [Blog Machine Learning cơ bản](https://machinelearningcoban.com/2016/12/28/linearregression/)
+3. [Stanford CS229: Machine Learning (Autumn 2018)](http://cs229.stanford.edu/)
