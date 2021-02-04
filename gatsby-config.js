@@ -53,6 +53,10 @@ module.exports = {
                 resolve: `gatsby-remark-images`,
                 options: {
                     maxWidth: 590,
+                    showCaptions: [‘title’, ‘alt’],
+                    markdownCaptions: true,
+                    withWebp: true,
+                    linkImagesToOriginal: false
                 },
             },
             {
