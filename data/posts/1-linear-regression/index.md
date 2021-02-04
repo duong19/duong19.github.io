@@ -35,15 +35,31 @@ Machine Learning algorithms are classified based on:
 ## Linear Regression
 
 ### 1. Introduction
+We begin with a simple real-world problem: suppose we have collected
+
+
+### 2. Algorithm Analysis
 
 $$
 \hat{Y} = \hat{\beta_0} + \sum_{n=1}^{p}{X_j\hat{\beta_j}}
 $$
 
-### 2. Algorithm Analysis
+$$
+Y \approx X^{T}\hat{\beta}  = \hat{Y}
+$$
 
+$$
+RSS(\beta) = \frac{1}{2}\sum_{i=1}^{N}(y_i - x_i^T\beta)^2
+$$
+
+$$
+RSS(\beta) = \frac{1}{2}(\bold{y} - \bold{X}\beta)^T(\bold{y} - \bold{X}\beta)
+$$
+
+$$
+\hat\beta = (\bold{X}^T\bold{X})^{-1}\bold{X}^T\bold{y} 
+$$
 ### 3. Example
-
 ## References
 
 1. [The Elements of Statistical Learning (2nd Edition)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
