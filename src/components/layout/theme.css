@@ -79,3 +79,7 @@ body * {
 .anchor svg {
   stroke: var(--textNormal);
 }
+
+.katex * {
+  color: #f5f5f5;
+}
