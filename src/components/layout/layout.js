@@ -5,6 +5,9 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Header from '../header/header'
 import style from './layout.module.scss'
 import './theme.css'
+require(`katex/dist/katex.min.css`)
+
+
 const Layout = ({children}) => {
     return (
         
