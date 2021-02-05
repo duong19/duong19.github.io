@@ -35,7 +35,13 @@ Machine Learning algorithms are classified based on:
 ## Linear Regression
 
 ### 1. Introduction
-We begin with a simple real-world problem: suppose we have collected
+We begin with a simple real-world problem: suppose we have collected a dataset of houses (sizes, number of bedroom, etc) and their prices. The question is when we have data of a new house, how do we make a prediction of its price?
+
+First, let's consider the process of supervised learning in that problem: we have a **training set** fed to a **learning algorithm** which output a **function** (or a hypothesis). The job of the function is mapping the data of a new house which we haven't seen yet to the estimated price.
+
+For example, 
+
+
 
 
 ### 2. Algorithm Analysis
