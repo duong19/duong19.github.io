@@ -4,7 +4,7 @@ import style from "./series.module.scss";
 import { Link } from "gatsby";
 import _ from "lodash";
 import SEO from "../components/seo";
-
+import TagList from '../components/tagList'
 
 const PageEntry = ({ post }) => {
     const { title, keyword, date, description } = post.frontmatter;
@@ -19,7 +19,9 @@ const PageEntry = ({ post }) => {
                     {" • "}
                     {post["fields"]["readingTime"]["text"]}
                 </i>
-                {/* <TagList keyword={keyword} /> */}
+                <br />
+                <br />
+                <TagList keyword={keyword} />
                 <br />
                 <br />
                 <h4>{description}</h4>

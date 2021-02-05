@@ -5,6 +5,10 @@ import Description from "../components/description"
 import style from './index.module.scss'
 import SEO from '../components/seo'
 import {Pagination} from 'antd'
+import TagList from '../components/tagList'
+
+
+
 const PAGE_SIZE = 3;
 
 const PageEntry = ({post}) => {
@@ -21,10 +25,10 @@ const PageEntry = ({post}) => {
           {" • "} 
           {post.fields.readingTime.text}
         </i>
-        
         <br />
         <br />
-        {/* <TagList keyword={keyword} /> */}
+        <TagList keyword={keyword} />
+        <br />
         <br />
         <h4>{description}</h4>
         <br />
