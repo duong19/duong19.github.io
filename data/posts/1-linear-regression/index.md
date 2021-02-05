@@ -35,12 +35,22 @@ Machine Learning algorithms are classified based on:
 ## Linear Regression
 
 ### 1. Introduction
-We begin with a simple real-world problem: suppose we have collected a dataset of houses (sizes, number of bedroom, etc) and their prices. The question is when we have data of a new house, how do we make a prediction of its price?
+We begin with a simple real-world problem: suppose we have collected a dataset of houses (sizes, number of bedrooms, etc) and their prices. The question is when we have data of a new house, how do we make a prediction of its price?
 
-First, let's consider the process of supervised learning in that problem: we have a **training set** fed to a **learning algorithm** which output a **function** (or a hypothesis). The job of the function is mapping the data of a new house which we haven't seen yet to the estimated price.
+First, let's consider the process of supervised learning in that problem: we have a **training set** fed to a **learning algorithm** which then will output a **function** (or a hypothesis). The job of the function is mapping the data of a new house to its estimated price.
 
-For example, 
+For example, we want to predict the price of a house that has a size of $\bold{x_1}$ $\small m^2 $, possesses $\bold{x_2}$ bedrooms and is $\bold{x_3}$ $\small km $ away from the city center. Can we infer from the dataset that we mentioned above? If we can, then what is the form of the function $\bold{y = f(x)}$ ?. In this example, $\bold{x = [x_1, x_2, x_3]}$ is a row vector, $\bold{y}$ is a scalar (the price of the house).
 
+A simple function can describe the relationship between $x_1, x_2,x_3$ and $y$:
+$$
+y \approx x^{T}\hat{\beta}  = \hat{y}
+$$
+
+$$
+f(x) = \beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3x_3
+$$
+
+where $\beta_0, \beta_1, \beta_2, \beta_3$ is the parameters we need to optimize. This problem is known as *Linear Regression*.
 
 
 
