@@ -4,6 +4,8 @@ import Layout from '../components/layout/layout'
 import style from './post.module.scss'
 import SEO from '../components/seo'
 import Navigation from '../components/navigation'
+import TagList from '../components/tagList'
+
 export const query = graphql`
     query($path: String!) {
         markdownRemark(fields: {slug: { eq: $path } }) {
@@ -44,9 +46,10 @@ const Post = (props) => {
             <h1>{props.data.markdownRemark.frontmatter.title}</h1>
             <i>{time.toDateString()}</i>
             </div>
+            <TagList keyword={props.data.markdownRemark.frontmatter.keyword}/>
             <br />
-        
-    <SeriesLink context={props.pageContext} />
+            <br/>
+            <SeriesLink context={props.pageContext} />
              <br />
                 <br />
                 <hr />
