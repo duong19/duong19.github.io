@@ -15,10 +15,10 @@ const LinkTo = ({ node, className, children, type }) => {
 const Navigation = ({ older, newer }) => {
     return (
         <div className={style.navbar}>
-            <LinkTo node={older} className={style.older} type='prev'>
+            <LinkTo node={newer} className={style.older} type='prev'>
                 
             </LinkTo>
-            <LinkTo node={newer} className={style.newer} type='next'>
+            <LinkTo node={older} className={style.newer} type='next'>
                 
             </LinkTo>
         </div>
