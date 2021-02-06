@@ -99,7 +99,12 @@ Differentiating w.r.t. $\beta$, we get the solution ($\bold{X}^T\bold{X}$ need t
 $$
 \hat\beta = (\bold{X}^T\bold{X})^{-1}\bold{X}^T\bold{y} 
 $$
-### 3. Example
+### 3. Demo
+[This demo](https://github.com/duongnlt/Machine-Learning-Basic/blob/main/Linear%20Regression.ipynb) based on [House Sales in King County, USA dataset](https://www.kaggle.com/harlfoxem/housesalesprediction)
+
+
+
+
 ## References
 
 1. [The Elements of Statistical Learning (2nd Edition)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
