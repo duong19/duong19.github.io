@@ -79,7 +79,7 @@ residual sum of squares:
 $$
 RSS(\beta) = \frac{1}{2}\sum_{i=1}^{N}(y_i - x_i^T\beta)^2
 $$
-where $(x_i,y_i)$ is a (input, outcome)
+where $(x_i,y_i)$ stands for an (input, outcome)
 
 We can write in matrix notation:
 
