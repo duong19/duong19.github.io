@@ -8,6 +8,6 @@ keyword:
   - kmeans
   - unsupervised-learning
 ---
-# 1. Introduction
-# 2. Algorithm Analysis
-# 3. Demo
+## 1. Introduction
+## 2. Algorithm Analysis
+## 3. Demo
