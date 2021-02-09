@@ -11,7 +11,7 @@ keyword:
 # 1. Introduction
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Extrema_example_original.svg/1200px-Extrema_example_original.svg.png" width="400" height="400" />
+<img src="http://mathonline.wdfiles.com/local--files/local-maxima-and-minima-and-absolute-maxima-and-minima/Screen%20Shot%202014-08-31%20at%202.33.00%20PM.png"></img>
 
 # 2. Gradient Descent
 
