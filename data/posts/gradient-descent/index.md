@@ -8,4 +8,7 @@ keyword:
   - gradient-descent
   - optimization
 ---
-## Introduction
+# Introduction
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Extrema_example_original.svg/1200px-Extrema_example_original.svg.png "Maxima and minima (Wikipedia)")
