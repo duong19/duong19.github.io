@@ -10,8 +10,13 @@ keyword:
 ---
 # 1. Introduction
 
+<img src="http://mathonline.wdfiles.com/local--files/local-maxima-and-minima-and-absolute-maxima-and-minima/Screen%20Shot%202014-08-31%20at%202.33.00%20PM.png" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;"></img>
 
-<img src="http://mathonline.wdfiles.com/local--files/local-maxima-and-minima-and-absolute-maxima-and-minima/Screen%20Shot%202014-08-31%20at%202.33.00%20PM.png"></img>
+
+In Mathematic, *local minimum* 
 
 # 2. Gradient Descent
 
