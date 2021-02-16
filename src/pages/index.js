@@ -9,7 +9,7 @@ import TagList from '../components/tagList'
 
 
 
-const PAGE_SIZE = 3;
+const PAGE_SIZE = 4;
 
 const PageEntry = ({post}) => {
   const { title, keyword, date, description } = post.frontmatter;
