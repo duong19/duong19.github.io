@@ -19,6 +19,8 @@ In Mathematic, $\hat{x}$ is a global minimum of a function $f$ defined on a doma
 
 In Machine Learning and many optimization problems, we often want to find the value to minimize (or maximize) an objective function (or loss function). However, finding the global minimum of loss function in Machine Learning is intricate and sometimes, unfeasible. Alternatively, we normally consider the local minimum to be a "good enough" solution.
 
+The most common approach to finding a local minimum is starting at a point considered to be the nearest point to the solution.
+
 # 2. Gradient Descent
 
 **Gradient Descent** for one variable:
@@ -27,7 +29,7 @@ $$
 x_{t+1} = x_t - \eta f'(x_t)
 $$
 
-**Gradient descent** for multiple variables:
+**Gradient Descent** for multiple variables:
 $$
 \theta_{t+1} = \theta_t - \nabla_{\theta}f(\theta_t)
 $$
