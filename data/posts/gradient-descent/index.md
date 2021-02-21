@@ -49,3 +49,15 @@ $$
 
 # Example
 # References
+
+<script>
+MathJax = {
+  tex: {
+    macros: {
+      *: '\\*'
+    }
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/nopm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
+
