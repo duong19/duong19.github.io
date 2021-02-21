@@ -21,7 +21,7 @@ In Machine Learning and many optimization problems, we often want to find the va
 
 So the question is how do we find a local minimum? The most common approach is starting at a point considered to be the nearest point to the solution, then using an iterative algorithm to approach the desired point. One of the most used technique is **Gradient descent**.
 
-$x^{\*}$ is **oke**
+
 
 
 # 2. Gradient Descent
@@ -49,15 +49,4 @@ $$
 
 # Example
 # References
-
-<script>
-MathJax = {
-  tex: {
-    macros: {
-      *: '\\*'
-    }
-  }
-}
-</script>
-<script src="https://cdn.jsdelivr.net/nopm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
 
