@@ -1,18 +1,15 @@
 .about {
-    // margin: 0 20px 20px;
-    // // display: flex;
-    // // justify-content: center;
-    // // align-items: flex-start;
-    // // flex-flow: column wrap;
-    margin-top: 20px;
-    width: 110%;
+  // margin: 0 20px 20px;
+  // // display: flex;
+  // // justify-content: center;
+  // // align-items: flex-start;
+  // // flex-flow: column wrap;
+  margin-top: 20px;
+  width: 110%;
 }
-// .avatar {
-   
-//         margin-bottom: 40px;
-//         margin-top: 40px;
-    
-// }
+.avatar {
+  margin-left: 10px;
+}
 
 // .block {
 //     display: flex;
@@ -22,33 +19,33 @@
 // }
 
 // .bio {
-    
+
 // }
 .block {
-    vertical-align: top;
-    display: inline-block;
-    margin-bottom: 40px;
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 40px;
 }
 
 .avatar {
-    margin-right: 10px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .bio {
-    width: 500px;
-    margin-top: 50px;
-    padding-left: 125px;
-    margin-bottom: 100px;
+  width: 600px;
+  margin-top: 70px;
+  padding-left: 205px;
+  margin-bottom: 80px;
 }
 
 .about ul {
-    list-style: none;
-    margin-left: 0;
-    margin-top: 50px;
+  list-style: none;
+  margin-left: 0;
+  margin-top: 80px;
 }
 
-.about ul>li {
-    margin-bottom: 20px;
+.about ul > li {
+  margin-bottom: 25px;
 }

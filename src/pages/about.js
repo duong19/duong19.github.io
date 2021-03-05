@@ -4,6 +4,7 @@ import Layout from '../components/layout/layout'
 import style from './about.module.scss'
 import avatar from '../assets/images/avatar.jpg'
 import SEO from '../components/seo'
+import { Link } from 'gatsby';
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
         keywords={["programming", "music", "blogging", "machine-learning", "math", "movies"]}
       />
       <div className={style.about}>
-        <Avatar size={256} src={avatar} className={style.avatar + ' ' + style.block}/>
+        <Avatar size={312} src={avatar} className={style.avatar + ' ' + style.block}/>
         <div className={style.bio + " " + style.block}>
                     <h2>Nguyen Ly Thai Duong</h2>
                     <ul>
@@ -35,7 +36,8 @@ export default function About() {
           <div>
             <h1>About me</h1>
             <br></br>
-            <p>I am currently a student at Hanoi University of Science and Technology. I am interested in Machine Learning, especially Reinforcement Learning and Deep Generative Models</p>
+            <p>I am currently a student at Hanoi University of Science and Technology. I am interested in Machine Learning, especially Reinforcement Learning and Deep Generative Models.</p>
+            <p>Here is my <a href="https://www.google.com">resume</a>.</p>
           </div>
           <br/>
           <br/>
