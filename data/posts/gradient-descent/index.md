@@ -25,6 +25,10 @@ So the question is how do we find a local minimum? The most common approach is s
 
 # 2. Gradient Descent
 
+We know that a **local minimum** $x^{\\*}$ of function $f$ is a point at which $f'(x^{\\*}) = 0$. Suppose $x_t$ is the point we find after the $t^th$ loop. We need to find an algorithm to get $x_t$ as close to $x^*$ as possible.
+
+
+ 
 **Gradient descent** for one variable:
 
 $$
