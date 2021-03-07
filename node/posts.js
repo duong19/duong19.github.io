@@ -4,7 +4,7 @@ const getPosts = async graphql => {
     const posts = await graphql(`
         {
             allMarkdownRemark(
-                sort: { fields: [frontmatter___date] }
+                sort: { order: DESC, fields: [frontmatter___date] }
                 limit: 1000
             ) {
                 edges {
