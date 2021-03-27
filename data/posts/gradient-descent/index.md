@@ -60,7 +60,7 @@ where $\theta$ is a vector.
 ## Batch gradient descent
 **Batch gradient descent** computes the **gradient** of the **cost function $J$** w.r.t. to the parameters $\bm\theta$ for the entire training dataset. Because we need to calculate the gradients for the whole dataset to perform just one update, batch gradient descent can be very slow and is intractable for large datasets when we don't have enough memory.
 
-
+An **epoch** means that each sample in the dataset has had an opportunity to update the internal model parameters. An epoch is comprised of one or more batches. For example, as above, an epoch that has one batch is called the batch gradient descent.
 
 ## Stochastic gradient descent
 Stochastic gradient descent (SGD) in contrast performs a parameter update for each training example $\bm x_i$ and label $\bm y_i$:
@@ -70,6 +70,8 @@ $$
 $$
 
 Batch gradient descent performs redundant computations for large datasets, as it recomputes gradients for similar examples before each parameter update. SGD does away with this redundancy by performing one update at a time. It is therefore usually much faster and can also be used to learn online.
+
+In SGD, one epoch takes more time than batch gradient descent. After every epoch, we need to shuffle our dataset because we want to avoid providing the training examples in a meaningful order to our model as this may bias the optimization algorithm. 
 ## Mini-batch gradient descent
 Mini-batch gradient descent finally takes the best of both methods above and performs an update for every mini-batch of $n$ training examples:
 
