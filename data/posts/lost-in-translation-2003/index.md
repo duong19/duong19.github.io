@@ -6,4 +6,6 @@ description: Một vài suy nghĩ về Lost In Translation.
 keyword:
   - movie
 ---
-![Bob (Bill Murray) and Charlotte (Scarlett Johansson)](https://miro.medium.com/max/700/1*vR8sTlhlbwLnAYL18G2VaA.jpeg "Bob (Bill Murray) and Charlotte (Scarlett Johansson)")
+![Bob (Bill Murray) and Charlotte (Scarlett Johansson)](https://www.indiewire.com/wp-content/uploads/2017/05/image.jpg "Bob (Bill Murray) and Charlotte (Scarlett Johansson)")
+
+*Lost in translation* might be one of the best movies I have seen. 
