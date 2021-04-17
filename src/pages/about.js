@@ -14,6 +14,7 @@ export default function About() {
         keywords={["programming", "music", "blogging", "machine-learning", "math", "movies"]}
       />
       <div className={style.about}>
+        <div className={style.intro}>
         <Avatar size={312} src={avatar} className={style.avatar + ' ' + style.block}/>
         <div className={style.bio + " " + style.block}>
                     <h2>Nguyen Ly Thai Duong</h2>
@@ -31,6 +32,7 @@ export default function About() {
                             <h4>🏠: Hanoi, Vietnam</h4>
                         </li>
                     </ul>
+                </div>
                 </div>
           <hr/>
           <div>

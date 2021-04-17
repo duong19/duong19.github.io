@@ -22,7 +22,7 @@ body.light {
   --textBold: hsl(230, 1%, 0%);
   --header: hsl(230, 1%, 0%);
   --textLinkHover: hsl(41, 99%, 30%);
-  --textLink: hsl(41, 99%, 38%);
+  --textLink: #337ab7;
   --hr: hsl(198, 99%, 37%);
   --katex: #000;
 }
