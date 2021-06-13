@@ -1,15 +1,42 @@
 ---
 date: 2021-04-16T14:24:46.023Z
 series: Machine Learning
-title: Maximum Likelihood
-description: A parameters estimation in stastical models.
+title: Maximum Likelihood, Maximum a Posterior
+description: A frequentist approach in stastical models.
 keyword:
   - machine-learning
   - statistic
   - mle
 ---
-# Introduction
-Supposed we have a dataset $ \bm{D = (x_1, x_2, ..., x_n)}$ of $\bm{N}$ independent observation.
+## Maximum Likelihood Estimator
+
+Supposed we have a dataset $ \bm{D = (x_1, x_2, ..., x_N)}$ of $\bm{N}$ observation and we want to recover the probability distribution that may have generated this dataset (or the **likelihood** of the dataset):
 $$
+\bm{p(D|w) = p(x_1, x_2, ...,x_N|w)} 
 $$
-# Maximum Likelihood Estimation
+where $\bm w$ is a set of parameters.
+
+**Maximum Likelihood principle**:
+
+$$
+\bm{w = \argmax_{w}p(D|w) = \argmax_{w}p(x_1, x_2, ..., x_N|w)}
+$$
+
+
+
+$$ 
+\bm{p(x_1, x_2, ...,x_N|w) \approx \prod_{n=1}^{N} p(x_n|w)}
+$$
+### 
+$$
+\bm{w = \argmax_{w}\prod_{n=1}^{N} p(x_n|w)}
+
+
+\bm{w = \argmax_{w}\sum_{n=1}^{N} log(p(x_n|w))}
+$$
+
+
+## Maximum a Posterior
+
+
+
