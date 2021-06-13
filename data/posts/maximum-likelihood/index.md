@@ -9,11 +9,20 @@ keyword:
   - mle
 ---
 ## Introduction
-Supposed we have a dataset $ \bm{D = (x_1, x_2, ..., x_N)}$ of $\bm{N}$ independent observation and we want to recover the probability distribution that may have generated this dataset (or the **likelihood** of the dataset):
+
+Supposed we have a dataset $ \bm{D = (x_1, x_2, ..., x_N)}$ of $\bm{N}$ observation and we want to recover the probability distribution that may have generated this dataset (or the **likelihood** of the dataset):
 $$
 \bm{p(D|w) = p(x_1, x_2, ...,x_N|w)} 
 $$
 where $\bm w$ is a set of parameters.
 
-**Maximum Likelihood principle**: 
+**Maximum Likelihood principle**:
+
+$$
+\bm{w = \argmax_{w}p(D|w) = \argmax_{w}p(x_1, x_2, ..., x_N|w)}
+$$
+ 
+
+
+
 ## Maximum Likelihood Estimation
