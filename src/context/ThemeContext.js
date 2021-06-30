@@ -21,7 +21,7 @@ class ThemeProvider extends React.Component {
         this.setState({theme})
     }
     componentDidMount() {
-        const theme = localStorage.getItem('theme') || 'dark';
+        const theme = localStorage.getItem('theme') || 'light';
         this.setState({ theme });
         document.body.className = theme;
     }
