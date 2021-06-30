@@ -1,7 +1,7 @@
 import React, { createContext } from 'react'
 
 const defaultState = {
-    theme: 'dark',
+    theme: 'light',
     switchTheme: () => {}
 }
 
