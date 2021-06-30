@@ -10,7 +10,7 @@ const ThemeContext = createContext(defaultState)
 
 class ThemeProvider extends React.Component {
     state = {
-        theme: 'dark'
+        theme: 'light'
     }
 
     switchTheme = () => {
