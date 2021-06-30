@@ -51,7 +51,7 @@ const IndexPage = ({data}) => {
         title="Home"
         keywords={["programming", "music", "blogging", "machine-learning", "math", "movies"]}
       />
-          <Description/>
+          {/* <Description/> */}
 
           {/* <h1>Latest Posts</h1>
           
