@@ -1,7 +1,7 @@
 import React, { createContext } from 'react'
 
 const defaultState = {
-    theme: 'light',
+    theme: 'dark',
     switchTheme: () => {}
 }
 
@@ -21,7 +21,7 @@ class ThemeProvider extends React.Component {
         this.setState({theme})
     }
     componentDidMount() {
-        const theme = localStorage.getItem('theme') || 'light';
+        const theme = localStorage.getItem('theme') || 'dark';
         this.setState({ theme });
         document.body.className = theme;
     }
