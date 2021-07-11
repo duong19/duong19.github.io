@@ -21,7 +21,7 @@ where $\bm w$ is a set of parameters.
 The maximum likelihood estimator for $ \bm w $ is defined as:
 
 $$
-\bm{w = \argmax_{w}p(D|w) = \argmax*{w}p(x_1, x_2, ..., x_N|w)} \tag 2
+\bm{w = \argmax_{w}p(D|w) = \argmax_{w}p(x_1, x_2, ..., x_N|w)} \tag 2
 $$
 
 But at first, we have to make an assumption that each $x_i \in \bm D$ is independently distributed according to same distribution, conditioned on $\bm w$. By doing that, we can rewrite $(1)$ as:
