@@ -27,7 +27,7 @@ $$
 But at first, we have to make an assumption that each $x_i \in \bm D$ is independently distributed according to same distribution, conditioned on $\bm w$. By doing that, we can rewrite $(1)$ as:
 
 $$ 
-\bm{p(x*1, x_2, ...,x_N|w) \approx \prod_{n=1}^{N} p(x_n|w)} 
+\bm{p(x_1, x_2, ...,x_N|w) \approx \prod_{n=1}^{N} p(x_n|w)} 
 $$
 
 So instead of optimizing $(2)$, we are going to optimize:
